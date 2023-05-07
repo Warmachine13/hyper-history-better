@@ -121,7 +121,6 @@ exports.middleware = (store) => (next) => (action) => {
         return next(action);
     }
     const uids = store.getState().sessions.sessions;
-    console.log(uids, action)
     actionUid = action.uid
     switch (action.type) {
         case 'SESSION_SET_XTERM_TITLE':
@@ -171,8 +170,7 @@ exports.middleware = (store) => (next) => (action) => {
     next(action);
 };
 
-const PLUGIN = 'visual12312311';
-const WRITE_TO_TERMINAL = `write to terminal`;
+const WRITE_TO_TERMINAL = "write to terminal";
 
 function waitFor(object, key, fn) {
 	if (key in object) {
