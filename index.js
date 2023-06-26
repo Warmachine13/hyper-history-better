@@ -24,9 +24,9 @@ let supressMode = false;
 let FullHistory = ''
 
 const terms = {}
-exports.terms = terms
+exports.terms = terms;
 
-let windowGlobal = null
+
 
 
 const FullPathHistory = path.join(process.env['HOME'], '.bash_history')

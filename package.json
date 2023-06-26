@@ -1,21 +1,24 @@
 {
-	"name": "hyper-history",
-	"version": "1.0.15",
+	"name": "hyper-history-better",
+	"version": "1.0.16",
 	"keywords": [
-		"hyper"
+		"hyper",
+		"plugin"
 	],
-	"maintainers": [{
-		"name": "Gary Xue",
-		"email": "gary.xuehong@gmail.com"
-	}],
-	"homepage": "https://github.com/garyxuehong/hyper-history#readme",
+	"maintainers": [
+		{
+			"name": "Lucas Pereira",
+			"email": "gary.xuehong@gmail.com"
+		}
+	],
+	"homepage": "https://github.com/Warmachine13/hyper-history-better#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/garyxuehong/hyper-history.git"
+		"url": "git+https://github.com/Warmachine13/hyper-history-better.git"
 	},
 	"description": "Show list of history of bash commands",
 	"main": "index.js",
 	"scripts": {},
-	"author": "Gary Xue",
+	"author": "Lucas Pereira",
 	"license": "ISC"
 }
